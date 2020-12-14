@@ -7,6 +7,7 @@
     <tr>
       <th scope="col">Id</th>
       <th scope="col">Name</th>
+      <th>Actions</th>
     </tr>
   </thead>
   <tbody>
@@ -14,6 +15,9 @@
     <tr>
     <td>{{$country->id}}</td>
     <td>{{$country->name}}</td>
+    <td>
+      <a class="btn btn-outline-primary" href="">Details</a>
+      <a class="btn btn-outline-primary" href="">Edit</a>
     </tr>
 @endforeach
   </tbody>
